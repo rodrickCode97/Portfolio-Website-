@@ -13,14 +13,14 @@
                 <div class="row">
                     <div class="col-12">
                         <!-- Icon Button-->
-                <nav class=" nav navbar navbar-expand-lg navbar-light ">
-                    <a class="navbar-brand text-success border border-secondary rounded-circle " href="#">Rodrick's Portfolio</a>
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand text-success border border-secondary rounded-circle " href="#"><span id="navBrand">Rodrick's Portfolio</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- Nav buttons-->
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                      <ul class="navbar-nav w-100">
+                    <div class="collapse navbar-collapse " >
+                      <ul class="navbar-nav">
                         <li class="nav-item active">
                           <a class="nav-link" href="#">Home</a>
                         </li>
@@ -80,14 +80,14 @@
                     </div>  
                 </div>
             </section>
-            <section class="container">
+            <section class="container" id="card">
                 <div class="row">
-                    <div class="col-12 my-3 text-center rounded">
+                    <div class="col-12  text-center rounded">
                         <h1 class="display-4 pt-3"> Stack Technologies</h1>
                         <p class="my-5">These are the certifications I've earned within my journey of becoming a software engineer.</p>
                         <div class="card-columns">
                             <!-- Card 1-->
-                            <div class="card pt-2 border border-white p-4 m-3">
+                            <div class="card  border border-white ">
                               <img class="card-img-top" src="./images/htmlLogo.svg" alt="Card image cap">
                               <div class="card-body">
                                 <h5 class="card-title">HTML5</h5>
@@ -95,7 +95,7 @@
                               </div>
                             </div>
                             <!-- CSS Card 2-->
-                            <div class="card p-3 border border-white p-4 ">
+                            <div class="card  border border-white ">
                                 <img class="card-img-top" src="./images/cssLogo.svg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">CSS</h5>
@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                             <!--Card 3-->
-                            <div class="card border border-white m-4">
+                            <div class="card border border-white">
                               <img class="card-img-top" src="./images/javascriptLogo.svg" alt="Card image cap">
                               <div class="card-body">
                                 <h5 class="card-title">JavaScript</h5>
@@ -112,7 +112,7 @@
                                 
                               </div>
                             </div>
-                            <div class="card bg-success text-white text-center m-5 border rounded p-3 ">
+                            <div class="card bg-success text-white text-center  border rounded w-35 ">
                               <blockquote class="blockquote">
                                 <p>"Finding out the why's and how's will get you further than the actual output of a project."</p>
                                 <footer class="blockquote-footer">
@@ -123,7 +123,7 @@
                               </blockquote>
                             </div>
                             <!--Green Card-->
-                            <div class="card text-center border border-white m-5">
+                            <div class="card text-center border border-white w-35 ">
                                 <img class="card-img-top" src="./images/reactLogo.svg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">React</h5>
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                             <!-- Card 5-->
-                            <div class="card border border-white m-5">
+                            <div class="card border border-white w-35">
                                 <img class="card-img-top" src="./images/nodeLogo.svg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Node.js</h5>
@@ -141,36 +141,40 @@
                                 </div>
                             </div>
                             <!--Card 6-->
-                            <div class="card p-3 text-center border border-white m-5">
+                            <div class="card  text-center border border-white ">
                                 <img class="card-img-top" src="./images/gitLogo.svg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Git</h5>
                                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 </div>
-                            </div>
-                            <!--Card 7--> 
-                            <!-- <div class="card border rounded m-5">
-                              <div class="card-body">
-                                <h5 class="card-title">Express.js</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                               </div>
-                            </div> -->
                           </div>
                         </div>
                         </section>
-                          <footer class="container py-5">
-                            <div class="row">
-                              <h1 class="display-3 col-8 text-left">find me at...</h1>
-                              <div class="row">
-                                <div class="col-auto justify-content-right">
-                                    <a href="https://www.linkedin.com/in/RodrickZolicoffer/" target="_blank"><img src="./images/LinkedInLogo.svg"   alt="linked in link as logo"  style="width:4em;"></a> 
-                                  </div>
-                                    <div class="col-auto">
-                                       <a href="https://github.com/rodrickCode97" target="_blank"><img src="./images/githubLogo.svg" alt="github profile link" ></a>
-                                    </div>
-                                  </div>
-                                </div>            
-                             </div>
+                        <section class="container py-4" id="about" >
+                          <h1 class="text-left pl-5 pt-3 display-4">About me.</h1>
+                          <div class="row">
+                            <div class="text-left col-12">
+                            </div>  
+                          </div>                        
+                          <div class="row text-left">
+                            <div class="col-12 pb-5 pt-4">
+                              <p>Environmental Health and Safety Specialist / Self-Taught Full Stack Software Engineer HTML || CSS || JavaScript with familiarity in UI/UX Design.</p>
+                            </div>                            
+                          </div>
+                        </section>
+                          <footer class="container pt-2">
+                            <div class="d-flex">
+                              <div class="mr-auto p-2">
+                                <h1 class="display-4 pl-5 text-right align-self-end">Find me at...</h1>
+                              </div>
+                              <div class="p-2 align-self-end">
+                                <a href="https://www.linkedin.com/in/RodrickZolicoffer/" target="_blank"><img src="./images/LinkedInLogo.svg"   alt="linked in link as logo"  style="width:4em;"></a> 
+                              </div>
+                              <div class="p-2 align-self-end">
+                                <a href="https://github.com/rodrickCode97" target="_blank"><img src="./images/githubLogo.svg" alt="github profile link" ></a>
+                              </div>
+                            </div>
                           </footer>
               <!-- Bootstrap JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
